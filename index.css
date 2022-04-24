@@ -1,3 +1,50 @@
-body {
+html,
+body,
+#root,
+.app {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+.app {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pageHead {
+  height: 15%;
+  border: 10px solid yellow;
+  background-color: red;
+  color: #fff;
+  font-size: 150px;
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.pageBody {
+  border: 10px solid yellow;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.pageLeft,
+.pageRight {
+  width: 15%;
+}
+.pageCenter {
+  border: 10px solid yellow;
+  flex: 1;
+  background-color: blue;
+}
+.pageFoot {
+  height: 15%;
   background-color: yellow;
+  border: 10px solid yellow;
+  color: red;
+  font-size: 170px;
+  text-align: center;
+  line-height: 1;
 }
